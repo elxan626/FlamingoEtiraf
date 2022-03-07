@@ -51,7 +51,7 @@ async def start(event):
                       ],
                       [Button.url('📜 Etiraf Kanalı', f'https://t.me/GoldEtiraf')],
                       [Button.url('💬 Qrupumuz', f'https://t.me/Gold_Mekann'),
-                       Button.url('👨🏻‍💻 Sahibim', f'https://t.muellime')]
+                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/Sabiidii')]
                     ),
                     link_preview=False)
 
@@ -70,7 +70,7 @@ async def handler(event):
                       ],
                       [Button.url('📜 Etiraf Kanalı', f'https://t.me/GoldEtiraf')],
                       [Button.url('💬 Qrupumuz', f'https://t.me/Gold_Mekann'),
-                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/muellime')]
+                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/Sabiidii')]
                     ),
                     link_preview=False)
 
