@@ -49,9 +49,9 @@ async def start(event):
                       [
                        Button.inline("💌 Etiraf Yaz", data="etiraf")
                       ],
-                      [Button.url('📜 Etiraf Kanalı', f'https://t.me/GoldEtiraf')],
-                      [Button.url('💬 Qrupumuz', f'https://t.me/Gold_Mekann'),
-                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/Sabiidii')]
+                      [Button.url('📜 Etiraf Kanalı', f'https://t.me/FlamingoEtiraf')],
+                      [Button.url('💬 Qrupumuz', f'https://t.me/FlamingoSohbet'),
+                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/Mirramin566')]
                     ),
                     link_preview=False)
 
@@ -68,9 +68,9 @@ async def handler(event):
                       [
                        Button.inline("💌 Etiraf Yaz", data="etiraf")
                       ],
-                      [Button.url('📜 Etiraf Kanalı', f'https://t.me/GoldEtiraf')],
-                      [Button.url('💬 Qrupumuz', f'https://t.me/Gold_Mekann'),
-                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/Sabiidii')]
+                      [Button.url('📜 Etiraf Kanalı', f'https://t.me/FlamingoEtiraf')],
+                      [Button.url('💬 Qrupumuz', f'https://t.me/FlamingoSohbet'),
+                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/Mirramin566')]
                     ),
                     link_preview=False)
 
@@ -110,7 +110,7 @@ async def anonim(event):
     async for usr in client.iter_participants(event.chat_id):
      gonderen = f"[{usr.first_name}](tg://user?id={usr.id})"
      etiraf_eden = "Anonim"
-     yeni_etiraf = await client.send_message(admin_qrup, f"📣 **Yeni etiraf**\n\n🗣️ **Etiraf Edən -** {etiraf_eden} \n📜 **Etirafı -** {mesaj} \n\n📣 Etirafınızı @GoldEtirafBot -a edin")
+     yeni_etiraf = await client.send_message(admin_qrup, f"📣 **Yeni etiraf**\n\n🗣️ **Etiraf Edən -** {etiraf_eden} \n📜 **Etirafı -** {mesaj} \n\n📣 Etirafınızı @FlamingoEtirafBot -a edin")
      tesdiq = await yeni_etiraf.reply("Etiraf Təsdiqlənsin ?", buttons=(
                       [
                        Button.inline("✅ Təsdiqlə", data="tesdiq"
@@ -136,7 +136,7 @@ async def aciq(event):
     global tesdiq
     async for usr in client.iter_participants(event.chat_id):
      etiraf_eden = f"[{usr.first_name}](tg://user?id={usr.id})"
-     sonluq = f"\n💌 Etirafınızı @GoldEtirafBot -a edin"
+     sonluq = f"\n💌 Etirafınızı @FlamingoEtirafBot -a edin"
      yeni_etiraf = await client.send_message(admin_qrup, f"📣 **Yeni etiraf**\n\n🗣️ **Etiraf Edən -** {etiraf_eden} \n📜 **Etirafı -** {mesaj} \n{sonluq}")
      tesdiq = await yeni_etiraf.reply("Etiraf Təsdiqlənsin ?", buttons=(
                       [
